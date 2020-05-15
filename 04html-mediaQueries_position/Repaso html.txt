@@ -1,0 +1,24 @@
+Repaso
+======
+html: es la estructura del sitio.
+Etiquetas: 
+	Marcar elementos.
+	Construyen cajas.
+
+Cajas/ etiquetas:
+	bloque: ocupa 100% del contenedor.
+	línea: ocupa el ancho de su contenido.
+
+Bloque: propiedades asociadas.
+	width:
+	height:
+	padding: espacio entre el contenido y el borde
+	border:
+	*margin: separar cajas entre si.
+(*)No es parte de la caja.
+
+Usando la propiedad box-sizing: obligamos a la caja a que respete las dimensiones definidas.
+
+¿Cómo hacemos para alinear bloques? Usamos grid. Otra opción es: flex.
+
+	

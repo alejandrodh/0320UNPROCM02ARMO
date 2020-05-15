@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
+article {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 5px dotted pink;
+}
+.uno {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.dos {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+.tres {
+    background-color: rgba(255, 0, 0, 0.5);
+}

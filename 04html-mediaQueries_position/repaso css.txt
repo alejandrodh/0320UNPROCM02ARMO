@@ -1,0 +1,34 @@
+Repaso
+======
+Css: hojas de estilo.
+
+La etiqueta link vincula los archivos. Necesitamos conocer la ruta.
+
+Para saber qué etiqueta modificar usamos SELECTORES.
+- etiquetas
+- clases
+- id
+
+- selectores combinados: más especificidad.
+- selectores descendentes.
+
+
+Usamos grid para alinear cajas.
+
+Temas de hoy
+¿Cómo adaptar el diseño al tamaño de la pantalla?
+¿Cómo superponemos cajas?
+
+
+Adaptación de diseño a la pantalla.
+Paso 1: 
+	avisarle al navegador que tiene que adaptar el html. Lo hacemos con meta + viewport.
+
+Paso 2: definir las media queries para marcar los puntos de quiebre. 
+Tamaños standard: 320px; 768px; 1024px;
+
+Dependiendo de como armemos el estilo base o principal usaremos mediaqueries al final del css con estos criterios:
+Desktop first ->	max-width + orden descendentes de tamaños.
+Mobile first -> min-width + orden ascendentes de tamaños
+
+
