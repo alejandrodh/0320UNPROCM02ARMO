@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Buscador</h1>
+    <form action="/resultado.html" method="GET">
+        <input type="text" name="search" placeholder="¿Qué querés buscar?">
+        <button type="submit">Buscar</button>
+    </form>
+
+    <h2>Login</h2>
+    <form action="" method="GET">
+        <div class="form-group">
+            <input type="email" name="email" placeholder="email" value="">
+        </div>
+        <div class="form-group">
+            <input type="password" name="password" placeholder="password" value="">
+        </div>
+        <div class="form-group">
+            <p> Nacionalidad</p>
+            <select name="nacionalidad" id="">
+                <option value="ar">Argentina</option>
+                <option value="br">Brasil</option>
+                <option value="ur">Uruguay </option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>¿Entendieron fetch?</p>
+            <input type="radio" name="pregunta" value="y">Si
+            <input type="radio" name="pregunta" value="n">No
+            <input type="radio" name="pregunta" value="ns/NC">No sé
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
